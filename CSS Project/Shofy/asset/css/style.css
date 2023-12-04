@@ -1,0 +1,1856 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/* common css */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    max-width: 1150px;
+    margin: auto;
+}
+/* header start */
+.bg-top-color{
+    background-color: black;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 5px 0px;
+}
+.top-text p{
+    color:white;
+}
+.top-select{
+    display: flex;
+}
+
+/* navigationbar start */
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.user-image{
+height: 50px;
+width: 50px;
+border-radius: 100%;
+border: 2px solid gray;
+display: flex;
+align-items: center;
+justify-content:center;
+}
+
+.user-image i{
+    font-size: 25px ;
+    color:gray;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+}
+.user-text{
+    margin-left: 10px;
+}
+.search-input{
+    border:2px solid #0989ff;
+    display: flex;
+    align-items: center;
+}
+.text-input input{
+    border:0;
+}
+.text-input:focus-within input{
+    border:0;
+    outline: none;
+}
+.navi-select select{
+    border:0;
+}
+.search-icon{
+    background-color:#0989ff ;
+    padding: 10px 20px;
+}
+
+/* categories start */
+.allcata
+{
+   display: flex;
+}
+
+.allcatachild
+{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   color: white;
+   transition: all 0.3s;
+   position: relative;
+}
+.button
+{
+   padding: 10px 39px;
+   color: white;
+   background-color: #0989ff;
+   display: flex;
+   font-size: 15px;
+}
+.button ul
+{
+   margin-right: 60px;
+   margin-left: 12px;
+}
+.button:hover
+{
+   background-color: black;
+   color: white;
+   cursor: pointer;
+}
+
+.allcata:hover .head2drop
+{
+   display: block;
+}
+
+.allCataList p:hover
+{
+   color: blue;
+}
+.head2drop
+{
+   display: none;
+   position: absolute;
+   background-color: white;
+   padding: 15px;
+   width: 250px;
+   border: 1px solid black;
+   top: 160px;
+   z-index: 10;
+}
+.allCataList
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 15px;
+   font-weight: 500;
+   padding: 10px 0px;
+   cursor: pointer;
+}
+.allCataList img
+{
+   width: 30px;
+   height: 30px;
+}
+.sideList
+{
+   position: absolute;
+   left: 100%;
+   top: 0;
+   width: 200px;
+   background-color: white;
+   padding: 10px;
+   border: 1px solid black;
+   display: none;
+}
+.sideList li
+{
+   font-size: 20px;
+   padding: 5px;
+}
+.allCataList:hover .sideList
+{
+   display: block;
+}
+
+.Category{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.categories-item{
+    display: flex;
+    margin-right: 200px;
+}
+
+.call-icone{
+   display: flex;  
+   margin-left: 300px;  
+   color: blue;
+   font-size: large;
+}
+
+.pages{
+    display: flex;
+}
+
+.m-20{
+    margin-left: 20px;
+}
+
+/* image part-1 */
+.bg-img-color{
+    background-color: #115061;
+    height: 500px;
+}
+
+.desing-img{
+    mix-blend-mode: luminosity;
+    opacity: 0.1;
+    position: absolute;
+    right: 0;
+}
+.main{
+    position: relative;
+}
+
+.other-img{
+    vertical-align: middle;
+ }
+
+.watch-img{
+    position: absolute;
+    right: 0;
+    margin-top: 40px;
+}
+
+.other-img1
+{
+    position: relative;
+    left: 800px;
+    top:50px
+    
+}
+.other-img2
+{
+    position: relative;
+    top: 170px;
+    left: -60px;
+}
+
+.img-text
+{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: 150px;
+    top: 100px;
+}
+
+/* image part-2 */
+
+.part-1{
+    height: 500px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px; 
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+    margin:auto;
+    margin-top: 70px;
+    margin-bottom: -220px;
+}
+
+.section-1{
+    align-items: center;
+    background-image: radial-gradient(95.56% 95.56% at 50% 50%,#fff 0,#bddeff 100%);
+    border-radius: 50%;
+    display: flex;
+    height: 180px;
+    justify-content: center;
+    /*margin: auto;*/
+    text-align: center;
+    width: 180px;
+}
+
+/*headphone*/
+.headphones-img{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 75px;
+    object-fit: cover;
+    position: relative;
+}
+
+.headphones-img:hover img{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.headphones-text{
+    margin-top: 40px;
+}
+
+.headphones-text h3:hover{
+    color: #0989ff;
+}
+
+/* mobile tablate */
+.mobile-tablate-img{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 75px;
+    position: relative;
+}
+.mobile-tablate-img:hover img{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.mobile-tablate-text{
+    margin-top: 40px;
+}
+
+.mobile-tablate-text h3:hover{
+    color: #0989ff;
+}
+
+/*cup-heat-pipes */
+.cpu-heat-pipes-img{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 75px;
+    position: relative;
+}
+
+.cpu-heat-pipes-img:hover img{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.cpu-heat-pipes-text{
+    margin-top: 40px;
+}
+
+.cpu-heat-pipes-text h3:hover{
+    color: #0989ff;
+}
+
+/*smart watch*/
+.smart-watch-img{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 75px;
+    position: relative;
+}
+
+.smart-watch-img:hover img{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.smart-watch-text{
+    margin-top: 40px;
+}
+
+.smart-watch-text h3:hover{
+    color: #0989ff;
+}
+
+/*bluetooth*/
+
+.bluetooth-img{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 65px;
+    position: relative;
+}
+
+.bluetooth-img:hover img{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.bluetooth-text{
+    margin-top: 5px;
+}
+
+.bluetooth-text h3:hover{
+    color: #0989ff;
+}
+ 
+/* image part-2 complate */
+
+/*delivery-refund start*/
+.delivery-refund{
+   height: 100px;
+   width: 265px;
+   display: flex;
+   background-color:rgb(236, 239, 241) ;
+   align-items: center;
+   margin-bottom: 50px;
+}
+
+.ad{
+  display: flex;
+
+}
+
+/* Free Delivary */
+.delivery-img {
+    color: red;
+    font-size: 20px;
+    margin:15px;
+}
+
+.delivery-text{
+    margin-left: 15px;
+}
+
+.delivery{
+    display: flex;
+    align-items: center;
+}
+
+/* Return & Refunf */
+.return-img {
+    color: red;
+    font-size: 20px;
+    align-items: flex-start;
+    margin:15px;
+}
+
+.return-text{
+    margin-left: 15px;
+}
+
+.return{
+    display: flex;
+    align-items: center;
+}
+
+/*discount*/
+.discount-img {
+    color: red;
+    font-size: 20px;
+    align-items: flex-start;
+    margin:15px;
+}
+
+.discount-text{
+    margin-left: 15px;
+}
+
+.discount{
+    display: flex;
+    align-items: center;
+}
+
+/* support 24/7 */
+.support-img {
+    color: red;
+    font-size: 20px;
+    align-items: flex-start;
+    margin:15px;
+}
+
+.support-text{
+    margin-left: 15px;
+}
+
+.support{
+    display: flex;
+    align-items: center;
+}
+
+/* delivery-refund end */
+
+/*image part-3 start*/
+.tp h1{
+    position: relative;
+    margin-top: 50px;
+    top: -15px;
+    color: black;
+}
+
+.tp img{
+    position: relative;
+    top: -15px;
+}
+
+.asset{
+    display: inline;
+    position: relative;
+    font-size: 20px;
+    left: 650px;
+    top: -90px;
+ }
+ .asset a
+ {
+    position: relative;
+    top: 20px;
+    padding: 20px 30px;
+ }
+ .asset .Featured
+ {
+    color: rgb(201, 200, 200);
+ }
+
+ .asset .Top-seller
+ {
+    color: rgb(201, 200, 200);
+ }
+
+
+.part-2{
+    height: 800px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-evenly;
+}
+.section-2{
+    height: 375px;
+    width: 250px;
+    border: 1px solid rgb(229, 233, 233); 
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 20px;
+ }
+ 
+/* 1. wireless */
+.wireless-img img{
+    object-fit: cover;
+    overflow: hidden;
+ }
+
+.wireless-img:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+ }
+
+.wireless-img{
+    position: relative;
+ }
+
+.hover-content{
+    display: none;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    transition: 1.5s;
+ }
+
+.wireless-img:hover .hover-content{
+    display:block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+ }
+.wireless-text{
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233); 
+}
+
+.wireless-text p:hover{
+    color: #0989ff;
+}
+
+.wireless-text h3:hover{
+    color: #0989ff;
+}
+
+.star-icone{
+    color: orange;
+}
+
+.line{
+    text-decoration: line-through;
+}
+
+.rate{
+    color: blue;
+}
+ /*2.  Gaming Headphone  */
+.gaming-img img{
+    object-fit: cover;
+    overflow: hidden;
+ }
+
+.gaming-img:hover:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+ }
+
+.gaming-img{
+    position: relative;
+ }
+ 
+.gaming-img:hover .hover-content{
+    display:block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+ }
+
+.gaming-text{
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233); 
+ }
+
+.gaming-text p:hover{
+    color: #0989ff;
+}
+
+.gaming-text h3:hover{
+    color: #0989ff;
+}
+ 
+ 
+/*3. Headphone with Mic*/
+.mic-img img{
+    object-fit: cover;
+    overflow: hidden;
+ }
+
+.mic-img:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+ }
+
+.mic-img{
+    position: relative;
+ }
+
+.mic-img:hover .hover-content{
+    display:block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+ }
+
+.mic-text{
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233); 
+ }
+
+.mic-text p:hover{
+    color: #0989ff;
+}
+
+.mic-text h3:hover{
+    color: #0989ff;
+}
+
+.out-stock
+ {
+   position: absolute;
+   margin: 5px 5px 5px 150px;
+   padding: 3px 3px;
+   color: white;
+   font-size: 12px;
+   border-radius: 5px;
+   z-index: 1;
+   background-color: crimson;
+ } 
+ 
+/*4.Galaxy Android Tablet*/
+.galaxy-img img{
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.galaxy-img:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.galaxy-img{
+    position: relative;
+}
+
+.galaxy-img:hover .hover-content{
+    display:block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.galaxy-text{
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233);  
+}
+
+.galaxy-text p:hover{
+    color: #0989ff;
+}
+
+.galaxy-text h3:hover{
+    color: #0989ff;
+}
+
+/*5. iPhone 14 Pro */
+.iphone-img img{
+    object-fit: cover;
+    overflow: hidden;
+ }
+
+.iphone-img:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+ }
+
+.iphone-img{
+    position: relative;
+ }
+
+.iphone-img:hover .hover-content{
+    display:block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+ }
+
+.iphone-text{
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233); 
+ }
+
+.iphone-text p:hover{
+    color: #0989ff;
+}
+
+.iphone-text h3:hover{
+    color: #0989ff;
+}
+
+ /*6. Apple iPad Air*/
+.apple-ipad-img img{
+    object-fit: cover;
+    overflow: hidden;
+ }
+
+.apple-ipad-img:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+ }
+
+.apple-ipad-img{
+    position: relative;
+ }
+
+.apple-ipad-img:hover .hover-content{
+    display:block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+ }
+
+.apple-ipad-text{
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233); 
+ }
+
+.apple-ipad-text p:hover{
+    color:#0989ff;
+}
+
+.apple-ipad-text h3:hover{
+    color: #0989ff;
+}
+
+ /*7.DeepCool Air Cooler*/
+ .deepcool-air-cooler-img img{
+    object-fit: cover;
+    overflow: hidden;
+ }
+
+.deepcool-air-cooler-img:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+ }
+
+.deepcool-air-cooler-img{
+    position: relative;
+ }
+
+.deepcool-air-cooler-img:hover .hover-content{
+    display:block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+ }
+
+.deepcool-air-cooler-text{
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233); 
+ }
+
+.deepcool-air-cooler-text p:hover{
+    color: #0989ff;
+}
+
+.deepcool-air-cooler-text h3:hover{
+    color: #0989ff;
+}
+
+ /*8. Antec Air Cooler*/
+.air-img img{
+    object-fit: cover;
+    overflow: hidden;
+ }
+
+.air-img:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+ }
+
+.air-img{
+    position: relative;
+}
+
+.air-img:hover .hover-content{
+    display:block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.air-text{
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233); 
+}
+
+.air-text p:hover{
+    color: #0989ff;
+}
+
+.air-text h3:hover{
+    color:#0989ff
+}
+
+/*image part-3 end*/
+
+/* image part-4 start */
+.section-3
+{
+    display: flex;
+    justify-content: space-between; 
+
+}
+.image-1
+{
+   overflow: hidden;
+   position: relative;
+   width: 680px;
+   height: 250px;
+   border-radius: 10px;
+  margin-right: 20px;
+}
+.image-2
+{
+   overflow: hidden;
+   position: relative;
+   width: 400px;
+   height: 250px;
+   border-radius: 10px;
+}
+.img-1
+{
+    position: absolute;
+}
+.img-1:hover
+{
+   transform: scale(1.1);
+   transition: 1s;
+}
+.img-1 img{
+   object-fit: cover;
+   object-position: right;
+
+}
+.img-2 img{
+   object-fit: cover;
+   object-position: right;
+}
+.img-text-1{
+   position: absolute;
+   padding: 50px;
+   font-size: 18px;
+   line-height: 1.5;
+}
+.img-text-1 h2:hover
+{
+    color: #0989ff;
+}
+.image-1 button{
+   border: none;
+   outline: none;
+   margin-left: 60px;
+   margin-top: 20px;
+}
+/* add 2 */
+.img-2{
+   position: absolute;
+}
+.img-text-2
+{
+   position: absolute;
+   padding: 50px;
+   font-size: 18px;
+   /* line-height: 1.3; */
+}
+.img-2:hover{
+   transform: scale(1.1);
+   transition: 1s;
+}
+.img-text-2 h2:hover
+{
+   color: #0989ff;
+}
+.image-2 button
+{
+   background-color: transparent;
+   border: none;
+   outline: none;
+   margin-left: 60px;
+   margin-top: 20px;
+   z-index: 1;
+}
+/* image part-4 end*/
+
+/*deal of the day start*/
+.background-color{
+    height: 600px;
+    width: auto;
+    background-color: #ecf2f7;
+    opacity: 0.9;
+}
+
+.dod h1{
+    position: relative;
+    margin-top: 50px;
+    top: 40px;
+    color: black;
+}
+
+.dod img{
+    position: relative;
+    top: 22px;
+}
+
+.bg-text-1 a
+{
+   padding: 12px 25px;
+   background: #0989ff;
+   border-radius: 8px;
+   color: white;
+   margin-left: 930px;
+}
+.bg-text-1 a:hover
+{
+    border: 0.5px solid white;
+    color: white;
+    background-color: black;
+}
+.shop-text-1 i
+{
+   margin-left: 5px;
+   position: relative;
+   top: 3px;
+   font-size: 20px;
+}
+
+.part-4{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   flex-flow: row;
+   margin-top: 50px;
+}
+
+.section-4{
+    height: 400px;
+    width: 280px;
+    border: 1px solid rgb(229, 233, 233);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.Gaming-img img{
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Gaming-img:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.Gaming-img{
+    position: relative;
+}
+
+.Gaming-img:hover .hover-content{
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Gaming-text{
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+.Gaming-text p:hover{
+    color: #0989ff;
+}
+
+.Gaming-text h3:hover{
+    color: #0989ff;
+}
+
+/* AIR COOLER */
+.Antec-air-cooler-img img{
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Antec-air-cooler-img:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.Antec-air-cooler-img{
+    position: relative;
+}
+
+.Antec-air-cooler-img:hover .hover-content{
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Antec-air-cooler-text{
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/* smart-watch */
+.Smart-watch-img img{
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Smart-watch-img:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.Smart-watch-img{
+    position: relative;
+}
+
+.Smart-watch-img:hover .hover-content{
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Smart-watch-text{
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/* deal of the day end*/
+
+/*electronic gadgets start*/
+
+.section-5{
+    height: 400px;
+    width: 400px;
+    border: 3px solid rgb(209, 35, 169); 
+    flex-flow: wrap;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    overflow: hidden;
+}
+
+.girl-img img{
+    position: relative;
+    top: 110px;
+    right: -220px;
+}
+
+.girl-img-text{
+    margin-top: -200px;
+    margin-left: 50px;
+}
+
+.girl-img-text button{
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    margin-top: 50px
+}
+
+.girl-img-text h3{
+    margin-bottom: 50px;
+}
+
+.girl-img-text button:hover{
+    color: blue;
+}
+
+.girl-img-text ul li:hover{
+    color: blue;
+}
+
+/* electronic gadgets end */
+
+/*collection 2023 start*/
+.part-6{
+    background-color: #0989ff;
+    height: 500px;
+    border-radius: 20px;
+}
+
+/*collection-2023 end*/
+
+/*tablet collection start */
+.part-6
+ {
+  max-height: 950px;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;   
+  justify-content: space-evenly;
+  flex-flow: row;
+  margin-top: 100px;
+}   
+.section-6
+{
+   width: 1130px;
+   height: 450px;
+   background-color: #0989ff;
+   margin-bottom: 50px;
+   border-radius: 8px;
+}
+.background-text
+{
+   color: white;
+   padding: 70px;
+}
+.background-text h1
+{
+   font-size: 50px;
+   font: weight 900px;
+   margin-bottom: 20px;
+}
+.background-text h2
+{
+   font-size: 40px;
+}
+.price-1
+{
+   font-size: 18px;
+   text-decoration: line-through;
+}
+.shop-botton 
+{
+    margin-top: 50px;
+}
+.shop-botton a
+{
+   color: white;
+   background-color: black;
+   border-radius: 8px;
+   padding: 15px 45px;
+}
+.shop-botton a:hover
+{
+  color: black;
+  background-color: white;
+}
+.bi-1
+{
+   position: relative;
+   left:600px;
+   bottom: 400px;
+   z-index: 1;
+}
+.bi-2
+{
+   position: relative;
+   left:630px;
+   bottom: 800px;
+   z-index: 2;
+}
+/* tablet collection end */
+
+/* new arrival start*/
+.na h1{
+    position: relative;
+    margin-top: 50px;
+    top: 40px;
+    color: black;
+}
+
+.na img{
+    position: relative;
+    top: 22px;
+}
+.part-7{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   flex-flow: row;
+   margin-top: 50px;
+}
+
+.section-7{
+    height: 400px;
+    width: auto;
+    border: 1px solid rgb(229, 233, 233);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+/* apple watch */
+.Apple-Watch-img img{
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Apple-Watch-img:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.Apple-Watch-img{
+    position: relative;
+}
+
+.Apple-Watch-img:hover .hover-content{
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Apple-Watch-text{
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*Sony-Smart-Watch*/
+.Sony-Smart-Watch-img img{
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Sony-Smart-Watch-img:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.Sony-Smart-Watch-img{
+    position: relative;
+}
+
+.Sony-Smart-Watch-img:hover .hover-content{
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Sony-Smart-Watch-text{
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/* sony lady watch */
+.Sony-Lady-Watch-img img{
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Sony-Lady-Watch-img:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.Sony-Lady-Watch-img{
+    position: relative;
+}
+
+.Sony-Lady-Watch-img:hover .hover-content{
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Sony-Lady-Watch-text{
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/* Lenovo-Bluetooth */
+.Lenovo-Bluetooth-img img{
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Lenovo-Bluetooth-img:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.Lenovo-Bluetooth-img{
+    position: relative;
+}
+
+.Lenovo-Bluetooth-img:hover .hover-content{
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Lenovo-Bluetooth-text{
+    padding: 20px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*new arrival end */
+
+/*product details start*/
+.main_name-3 
+{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   padding: 10px;
+   margin-bottom: 50px;
+}
+.main_name-3 h3{
+   position: relative;
+   top:50px;
+   color: black;
+   font-size: 25px;
+}
+.main_name-3 img{
+   position: relative;
+   top:25px;
+   border-radius: 10px;
+}
+.part-8
+{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-template-rows: auto auto auto;
+}
+
+.section-8
+{
+   border-bottom: 1px solid rgb(199, 199, 199);
+   margin-right: 30px;
+}
+.grid-part-1
+{
+   display: flex; 
+   padding: 12px;
+}
+.grid-part-image
+{
+   height: 120px;
+   width: 100px;
+   background-color:rgb(227, 224, 224);
+   border-radius: 8px;
+   margin-right: 20px; 
+}
+.grid-part-image img:hover
+{
+   transform: scale(1.2);
+   transition: 0.3s;
+}
+.grid-text p:hover
+{
+   color: #0989ff;
+}
+.grid-text h5:hover
+{
+   color: #0989ff;
+}
+.grid-text
+{
+   padding: 10px;
+   line-height: 1.4;
+}
+.grid-text p
+{
+   font-size: 12px;
+}
+.grid-text h5
+{
+   padding-bottom: 8px;
+}
+.width
+{
+   font-size: 12px;
+}
+/*product details end*/
+
+/* latest news and articals start */
+.part-9
+ {
+   width: auto;
+   display: flex;
+   flex-wrap: wrap;   
+   justify-content: space-evenly;
+   margin-bottom: 50px;
+}
+
+.section-9
+  {
+        height: 500px;
+        width: 320px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        object-fit: cover;
+ }
+.news h1{
+   position: relative;
+   top:50px;
+   color: black;
+   font-size: 45px;
+}
+.news img{
+   position: relative;
+   top:25px;
+   border-radius: 10px;
+}
+.bg-text-2
+{
+   margin-top: 25px;
+}
+.bg-text-2 a
+{
+   padding: 10px 20px;
+   border: 1px solid gray;
+   border-radius: 8px;
+}
+.bg-text-2 a:hover
+{
+   color: white;
+   background-color:#0989ff;
+}
+.shop-text-2 i
+{
+   margin-left: 5px;
+   position: relative;
+   top: 3px;
+   font-size: 20px;
+}
+.ceramics-text 
+{
+   margin-top: 20px;
+   line-height: 1.5;
+}
+.climates-text
+{
+   margin-top: 20px;
+   line-height: 1.5;
+}
+.colthes-text
+{
+   margin-top: 20px ;
+   line-height: 1.5;
+}
+.ceramics-text  h3
+{
+   margin-bottom: 5px;
+}
+.climates-text h3
+{
+   margin-bottom: 5px;
+}
+.colthes-text h3
+{
+   margin-bottom: 5px;
+}
+.ceramics-text  h3:hover
+{
+  color: #0989ff;
+}
+.climates-text h3:hover
+{
+   color: #0989ff;
+}
+.colthes-text h3:hover
+{
+   color: #0989ff;
+}
+.ceramics-text  h5:hover
+{
+  color: #0989ff;
+}
+.climates-text h5:hover
+{
+   color: #0989ff;
+}
+.colthes-text h5:hover
+{
+   color: #0989ff;
+}
+.ceramics-text p
+{
+   margin-top: 8px;
+   padding-bottom: 12px;
+   font-size: 12px;
+}
+.climates-text p
+{
+   margin-top: 8px;
+   padding-bottom: 12px;
+   font-size: 12px;
+}
+.colthes-text p
+{
+   margin-top: 8px;
+   padding-bottom: 12px;
+   font-size: 12px;
+}
+.ceramics-image a
+{
+   padding: 8px 15px;
+   color: white;
+   background-color: black;
+   position: relative; 
+   top: -245px;
+}
+.climates-image a
+{
+   padding: 8px 15px;
+   color: white;
+   background-color: black;
+   position: relative; 
+   top: -245px;
+}
+.clothes-image a
+{
+   padding: 8px 15px;
+   color: white;
+   background-color: black;
+   position: relative; 
+   top: -245px;
+}
+/* latest news and articals end */
+
+/* images start */
+.section-10
+{
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 70px;
+   position: relative;
+   width: auto;
+}
+.imeges-1 img
+{
+   border-radius: 8px;
+}
+.imeges-1:hover
+{
+   filter: grayscale(100%);
+   border-radius: 8px;
+   color: white;
+}
+.imeges-2 img
+{
+   border-radius: 8px;
+}
+.imeges-2:hover
+{
+   filter: grayscale(100%);
+   border-radius: 8px;
+   color: white;
+}
+.imeges-3 img
+{
+   border-radius: 8px;
+}
+.imeges-3:hover
+{
+   filter: grayscale(100%);
+   border-radius: 8px;
+   color: white;
+}
+.imeges-4 img
+{
+   border-radius: 8px;
+}
+.imeges-4:hover
+{
+   filter: grayscale(100%);
+   border-radius: 8px;
+   color: white;
+}
+.imeges-5 img
+{
+   border-radius: 8px;
+}
+.imeges-5:hover
+{
+   filter: grayscale(100%);
+   border-radius: 8px;
+   color: white;
+}
+.instagram-icon-1 
+{
+   left: 50%;
+   top: 60%;  
+   opacity: 0;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   z-index: 1;
+   vertical-align: middle;
+} 
+/* .instagram-icon-1 a
+{
+   border: 2px solid hsla(0, 1%, 34%, 0.2);
+   border-radius: 8px;
+   color: white;
+   display: inline-block;
+   font-size: 18px;
+   height: 44px;
+   line-height: 44px;
+   text-align: center;
+   width: 44px;
+} */
+.instagram-icon-1 a i
+{
+   height: 44px;
+   width: 44px;
+   border: 2px solid white;
+   text-align: center;
+   padding: 11px;
+   border-radius: 10px;
+   font-size: 20px;
+   font-weight: 700;
+}
+
+/* images end */
+
+/* footer start */
+.footer
+{
+   margin-top: 100px;
+   background-color: #e8e9ea;
+}
+.Newsletter
+{
+   background-color: #0989ff;
+   height: 190px;
+}
+.News-text{
+   position: relative;
+   z-index: 1;
+   font-size: 20px;
+   color: white;
+   padding-top: 70px;
+}
+.News-text span
+{
+   font-size: 15px;
+}
+.men-image{
+   position: relative;
+   bottom: 150px;
+   left: 1200px;
+}
+.plane
+{
+   position: relative;
+   bottom: 320px;
+   left: 800px;
+}
+.submit input{
+   position: relative;
+   bottom: 300px;
+   left: 850px;
+   display: flex;
+   position: relative;
+   padding-right: 100px;
+   padding-left: 20px;
+   background-color: white;
+   border: 0;
+   border-radius: 8px 0 0 8px;
+   height: 50px;
+   width: 350px;
+}
+button
+{
+   background-color: black;
+   border-radius: 0 8px 8px 0;
+   color: white;
+   padding: 16px 40px;
+   position: relative;
+   bottom: 350px;
+   left: 1200px;
+
+}
+.Newsdesing-1
+{
+   mix-blend-mode: luminosity;
+   opacity: 0.4;
+   position: absolute;
+   left: 0;
+}
+footer .Newsdesing-2
+{
+   mix-blend-mode: luminosity;
+   opacity: 0.4;
+   position: absolute;
+   left: 200px; 
+   top: 50px;
+}
+.Newsdesing-3
+{
+   mix-blend-mode: luminosity;
+   opacity: 0.4;
+   position: absolute;
+   left: 280px;
+}
+
+.all_div
+{
+   display: flex;
+   justify-content:space-between;
+   margin-top: 30px;
+}
+.div-1
+{
+   padding: 60px 60px 60px 0;
+   width: 30%;
+   line-height: 1.5;
+   margin-bottom: 40px;
+}
+.div-1 img
+{
+   margin-bottom: 20px;
+}
+.div-1 p
+{
+   margin-bottom: 20px;
+}
+.browser i
+{
+   background-color: white;
+   border-radius: 8px;
+   display: inline;
+   padding: 8px;
+   height: 40px;
+   width: 40px;
+   margin-right: 5px;
+   text-align: center;
+   color: rgb(48, 48, 48);
+   box-shadow: 0 1px 1px rgb(159, 158, 158);
+}
+.browser i:hover
+{
+   color: white;
+   background-color: #0989ff;
+}
+.div-2
+{
+   padding: 40px;
+   width: 20%;
+   line-height: 2;
+}
+.div-2 ul li
+{
+   list-style-type: disc;
+   font-size: 13px;
+   line-height: 2.5;
+   color: rgb(60, 59, 59);
+}
+.div-2 h4
+{
+   position: relative;
+   right: 12px;
+}
+.div-3 ul li
+{
+   list-style-type: disc;
+   font-size: 13px;
+   line-height: 2.5;
+   color: rgb(60, 59, 59);
+}
+.div-3 h4
+{
+   position: relative;
+   right: 12px;
+}
+.div-3
+{
+   padding: 40px;
+   width: 25%;
+   line-height: 2;
+}
+.div-4
+{
+   padding: 40px;
+   width: 25%;
+   line-height: 1.3;
+}
+.div-4 h4
+{
+   margin-bottom: 10px;
+}
+.div-4 h2
+{
+   margin-bottom: 12px;
+}
+.div-4 span
+{ 
+   font-size: 13px;
+}
+.div-4 a
+{
+   color: inherit;
+   font-size: 13px;
+}
+.last_part
+{
+   border-top: 1px solid rgb(204, 201, 201);
+   padding-bottom: 80px;
+   font-size: 13px;
+}
+.last_part img
+{
+   position: relative;
+   top: 15px;
+   left: 535px;
+}
+.last_part span span
+{
+   color: #0989ff
+}
+
+/* footer end */
