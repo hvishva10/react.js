@@ -54,7 +54,7 @@ CSS VISIBIKITY
     color: brown;
     font-size: 20px;
     text-align:initial;
-   /* text-decoration:overline line-through red; 
+    /*text-decoration:overline line-through red; 
     text-decoration: none;
     text-transform: uppercase;
     text-indent: 100px;
@@ -62,7 +62,7 @@ CSS VISIBIKITY
     word-spacing: 10px;
     direction: ltr;
     unicode-bidi:plaintext;
-    text-shadow: 5px 5px 1px green; */
+    text-shadow: 5px 5px 1px green;*/
  }
 
  /* 3.CSS verticle alignment */
@@ -81,7 +81,7 @@ CSS VISIBIKITY
 
 .white-space
 {
-    white-space: pre;
+    white-space:pre;
 }
 
 /* 5.CSS visibility */
