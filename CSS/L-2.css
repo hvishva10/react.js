@@ -24,9 +24,8 @@ body{
 }
 
  .hsl{
-   height: 400px;
-   width: 400px;
-   border: 5px solid red;
+   height: 200px;
+   width: 200px;
    background-color: hsl(0, 100%, 50%)
 }  
 
@@ -34,9 +33,9 @@ body{
 
 .back_image
 {
-    background-image: url('logo.jpg'); 
+/*background-image: url('logo.jpg'); */
    background-color: blue;
-   background-repeat:repeat;
+   background-repeat:no-repeat;
    border: 50px solid transparent;
    padding: 40px;
    background-size: cover;
