@@ -31,7 +31,7 @@ console.log(fix3);               //5.4545000000
 /* toPrecision()pre */
 
 {
-  let pre1 = 5
+  let pre1 = 5;
   let pre2 = pre1.toPrecision(1);
   let pre3 = pre1.toPrecision(2);
   let pre4 = pre1.toPrecision(3);
