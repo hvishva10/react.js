@@ -39,7 +39,6 @@ console.log(arry);
 arry.pop()
 arry.pop()
 console.log(arry);
-
 arry[0] = "brmha"
 console.log(arry);*/
 
