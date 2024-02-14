@@ -187,8 +187,8 @@ console.log(arry);*/
 {
     /*const arry = ["krishna" , "radha" , "ganesh" , "riddhi", "sidhhi" , "shiv" , "parvati"];
     console.log(arry);
-    arry.splice(0 , 1);
-    console.log(arry);*/
+    let arry2 =arry.splice(2 , 3);
+    console.log(arry2);*/
 }
 
 {
@@ -210,12 +210,21 @@ console.log(arry);*/
     document.getElementById("demo").innerHTML = arry + "<br><br>" + newremove;
     console.log(arry);*/
 }
+{
+    /*let arry1 = ["radha" , "krishna" , "shiv" , "parvati", "ganesh" , "Ridhi" , "sidhhi"];
+    console.log(arry1);
+    let arry2 = arry1.slice(0 , 3)
+    console.log(arry2);*/
+}
 
 /*Array.isArray*/
 {
     /*let book = ["math" , "chemistry" , "physics" , "bio"];
     let books = "string";
     console.log(Array.isArray(books));*/
+}
+{
+    //console.log(Array.isArray([]));
 }
 
 /*Javascript Sorting Araay*/
@@ -230,9 +239,7 @@ console.log(arry);*/
     /*let book = ["math" , "chemistry" , "physics" , "bio"];
     console.log(book);
     let bookss = book.reverse();
-    console.log(bookss);
-    let books = book.sort();
-    console.log(books);*/
+    console.log(bookss);*/
 }
 
 /*Number sort*/
@@ -260,19 +267,27 @@ console.log(arry);*/
 {
     /*const number1 = [56 , 798 , 345 , 35];
     const number2 = number1.map(myFunction);
-
+    const number3 = number2.sort((a, b) => a - b)
     console.log(number2);
-    function myFunction(value , index , array){
+    function myFunction(value){
         return value * 2;
     }*/
 }
 
 /*javascript Array flatMap*/
 {
-    /*const myarr = [1 , 2 , 3 , 4 , 5 , 6];
-    const newarr = myarr.flatMap((x) => x*2);
-    console.log(newarr);*/
+    /*let flatmap = [1 , 2 , 3 , 4]
+    let flatmap1 = flatmap.flatMap((num) => num === 3 ? [1,1] : 2)
+    console.log(flatmap1);*/
 }
+
+/* Javascript Array flat() */
+
+{
+    /*let flatarray  = [10 , 20 , [22 , 33 , [44  , 55 ,[66 , 77]]]]
+    let flatmap2  = flatarray.flat(3)
+    console.log(flatmap2);*/
+ }
 
 /*javascript array filter */
 {
