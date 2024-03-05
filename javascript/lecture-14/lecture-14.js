@@ -64,13 +64,13 @@ setInterval(greet ,1000 ,"vishva",52)*/
 
 /*SetInterval Id */
 
-// function greet(name ,age)
-// {
-//    console.log(`your name is ${name}  and age ${age}`)
-// }
-// let Id = setInterval(greet ,1000,"ram",Id)
+ /*function greet(name ,age)
+ {
+    console.log(`your name is ${name}  and age ${age}`)
+ }
+ let Id = setInterval(greet ,1000,"ram",23)*/
 
-// // clearTimeout
+ // clearTimeout
 // clearInterval(Id)
 // ---------task---------
 {
