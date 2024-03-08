@@ -81,4 +81,3 @@
    NewElement.classList.add("vishva")
    document.body.appendChild(NewElement)
 }
-

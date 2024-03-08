@@ -25,7 +25,7 @@
     //   document.write(message)
   }
   
-  /************************* javascript map methods  ********************************/
+  /************************* javascript map methods********************************/
   
   //methods
   {
@@ -142,6 +142,7 @@
     console.log(x.size);
   }
   
+  // add
   {
     const newset = new Set();
   
