@@ -360,27 +360,27 @@ console.log(String2);*/
 //1.
 /*let String1 = "Why Need Form Valiadation In Web Development"
 console.log(String1);
-let String2 = String1.startsWith("F");
+let String2 = String1.startsWith("w");
 console.log(String2);*/
 
 //2.
 /*let String1 = "my name is chin chin cha"
 console.log(String1);
-let String2 = String1.startsWith("F");
+let String2 = String1.startsWith("a");
 console.log(String2);*/
 
 //3.
 /*let String1 = "my name is vishva"
 console.log(String1);
-let String2 = String1.startsWith("F");
+let String2 = String1.startsWith("m");
 console.log(String2);*/
 
 /**********************string end with method****************************/
 //1.
 /*let String1 = "Why Need Form Valiadation In Web Development"
 console.log(String1);
-let String2 = String1.endsWith("F");
-console.log(String2);*/
+let String2 = String1.endsWith("t");
+console.log(String2);
 
 //2.
 /*let String1 = "my name is chin chin cha"
@@ -391,5 +391,5 @@ console.log(String2);*/
 //3.
 /*let String1 = "my name is vishva"
 console.log(String1);
-let String2 = String1.startsWith("F");
+let String2 = String1.endsWith("a");
 console.log(String2);*/
