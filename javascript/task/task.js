@@ -41,8 +41,31 @@
 
 //16. Reverse String in JavaScript.
 {
-    let string = ["hello"]
-    console.log(string)
-    let string1 = string.splice()
-    console.log(string1);
+    /*function reverse(str){
+        const reverse_str = str.split("").reduce((acc, char) => char + acc, "");
+        console.log(reverse_str);
+    }
+    reverse("vishva_hirpara")*/
 }
+
+//18. if else statement in JavaScrip.
+{
+    /*let num = 4;
+    console.log(num)
+    if(num % 2 == 0){
+        console.log("number is even")
+    }else{
+        console.log("number is odd")
+    }*/
+}
+
+//19. Insert element in array javascript
+{
+    /*const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    fruits.push("Kiwi");
+    console.log(fruits);*/
+}
+
+//20. get current url javascript
+
+//21. getElementsByClassName() method in JavaScript.
